@@ -125,7 +125,7 @@ export default function LeadForm() {
       <button
         type="submit"
         disabled={pending}
-        className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-jade px-6 py-4 text-base font-bold text-white hover:bg-jade-2 disabled:opacity-60 disabled:cursor-not-allowed transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-jade/20"
+        className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-jade px-6 py-4 text-base font-bold text-white hover:bg-jade-2 disabled:opacity-60 disabled:cursor-not-allowed transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-jade/20"
       >
         {pending ? (
           <>

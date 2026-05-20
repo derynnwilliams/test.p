@@ -145,21 +145,21 @@ export default function Home() {
           <div className="hidden md:flex items-center gap-3 text-sm">
             <a
               href="#collections"
-              className="bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors"
+              className="rounded-lg bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors"
             >
               Collections
             </a>
-            <a href="#brands" className="bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
+            <a href="#brands" className="rounded-lg bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
               Brands
             </a>
-            <a href="#contact" className="bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
+            <a href="#contact" className="rounded-lg bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
               Contact
             </a>
           </div>
 
           <a
             href="#contact"
-            className="rounded-none bg-jade px-5 py-2.5 text-sm font-semibold text-white hover:bg-jade-3 transition-colors"
+            className="rounded-lg bg-jade px-5 py-2.5 text-sm font-semibold text-white hover:bg-jade-3 transition-colors"
           >
             Get in Touch
           </a>
@@ -186,14 +186,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#collections"
-              className="inline-flex items-center justify-center gap-2 rounded-none bg-ink px-8 py-4 text-base font-bold text-white hover:bg-zinc-800 transition-all"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-8 py-4 text-base font-bold text-white hover:bg-zinc-800 transition-all"
             >
               Explore Collections
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
               href="#brands"
-              className="inline-flex items-center justify-center gap-2 rounded-none border border-stone-300 px-8 py-4 text-base font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-300 px-8 py-4 text-base font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
             >
               View Brands
             </a>
@@ -285,7 +285,7 @@ export default function Home() {
             {brands.map((brand) => (
               <span
                 key={brand}
-                className={`rounded-none border px-5 py-2.5 text-sm font-medium transition-colors ${
+                className={`rounded-full border px-5 py-2.5 text-sm font-medium transition-colors ${
                   brand === "& Many More"
                     ? "border-jade/40 bg-jade/10 text-jade"
                     : "border-stone-300 bg-white text-zinc-700 hover:border-jade/40 hover:text-ink"
