@@ -167,13 +167,8 @@ export default function Home() {
       </nav>
 
       {/* ── Hero ── */}
-      <section className="pt-36 pb-28 px-6">
+      <section className="pt-20 pb-28 px-6">
         <div className="mx-auto max-w-5xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-none border border-jade/30 bg-jade/8 px-4 py-1.5 text-xs font-medium text-jade mb-8">
-            <Star className="h-3 w-3 fill-jade" />
-            Industrial Chic · Gifts · Stationery · Home
-          </div>
-
           <div className="mb-6 flex justify-center">
             <img
               src="/images/logo-mark.webp"
