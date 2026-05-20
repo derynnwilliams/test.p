@@ -171,13 +171,13 @@ export default function Home() {
         <div className="mx-auto max-w-5xl text-center">
           <div className="mb-0 flex justify-center">
             <img
-              src="/images/logo-mark.webp"
+              src="/images/logo-mark.jpg"
               alt="The Merchant — USA Atlanta Trademark"
               className="w-72 md:w-[420px]"
             />
           </div>
 
-          <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-12 leading-relaxed -mt-11">
+          <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-12 leading-relaxed -mt-4">
             A supplier of industrial chic wares, general gifts, stationery, and
             home furnishings — carrying top brands like Voluspa, Matt &amp;
             Nat, Rifle Paper Co., Fishs Eddy, and much more.
