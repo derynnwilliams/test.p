@@ -152,9 +152,6 @@ export default function Home() {
             <a href="#brands" className="rounded-lg bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
               Brands
             </a>
-            <a href="#contact" className="rounded-lg bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
-              Contact
-            </a>
           </div>
 
           <a
