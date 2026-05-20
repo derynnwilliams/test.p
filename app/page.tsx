@@ -174,13 +174,13 @@ export default function Home() {
             Industrial Chic · Gifts · Stationery · Home
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.05] mb-6 text-ink">
-            Curated Gifts.
-            <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-jade to-jade-2">
-              Crafted with Character.
-            </span>
-          </h1>
+          <div className="mb-6 flex justify-center">
+            <img
+              src="/images/logo-mark.webp"
+              alt="The Merchant — USA Atlanta Trademark"
+              className="w-72 md:w-[420px]"
+            />
+          </div>
 
           <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-12 leading-relaxed">
             A supplier of industrial chic wares, general gifts, stationery, and
