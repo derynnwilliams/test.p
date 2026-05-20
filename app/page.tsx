@@ -142,24 +142,24 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="hidden md:flex items-center gap-8 text-sm text-zinc-500">
+          <div className="hidden md:flex items-center gap-3 text-sm">
             <a
               href="#collections"
-              className="hover:text-ink transition-colors"
+              className="bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors"
             >
               Collections
             </a>
-            <a href="#brands" className="hover:text-ink transition-colors">
+            <a href="#brands" className="bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
               Brands
             </a>
-            <a href="#contact" className="hover:text-ink transition-colors">
+            <a href="#contact" className="bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
               Contact
             </a>
           </div>
 
           <a
             href="#contact"
-            className="rounded-none bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-zinc-800 transition-colors"
+            className="rounded-none bg-jade px-5 py-2.5 text-sm font-semibold text-white hover:bg-jade-3 transition-colors"
           >
             Get in Touch
           </a>
