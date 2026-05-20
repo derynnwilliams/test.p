@@ -383,7 +383,7 @@ export default function Home() {
 
       {/* ── Jewelry Photo ── */}
       <div className="h-[420px] overflow-hidden border-t border-stone-300">
-        <img src="/images/jewelry.jpg" alt="Jewelry and accessories" className="w-full h-full object-cover object-top" />
+        <img src="/images/jewelry.jpg" alt="Jewelry and accessories" className="w-full h-full object-cover object-center" />
       </div>
 
       {/* ── Contact / Lead Form ── */}
