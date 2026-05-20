@@ -152,14 +152,10 @@ export default function Home() {
             <a href="#brands" className="rounded-lg bg-jade text-white px-4 py-2 font-semibold hover:bg-jade-3 transition-colors">
               Brands
             </a>
+            <a href="#contact" className="rounded-lg bg-jade px-4 py-2 text-sm font-semibold text-white hover:bg-jade-3 transition-colors">
+              Get in Touch
+            </a>
           </div>
-
-          <a
-            href="#contact"
-            className="rounded-lg bg-jade px-5 py-2.5 text-sm font-semibold text-white hover:bg-jade-3 transition-colors"
-          >
-            Get in Touch
-          </a>
         </div>
       </nav>
 
