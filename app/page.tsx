@@ -164,7 +164,7 @@ export default function Home() {
       </nav>
 
       {/* ── Hero ── */}
-      <section className="pt-0 pb-2 px-6">
+      <section className="pt-8 pb-4 px-6">
         <div className="mx-auto max-w-5xl text-center">
           <div className="mb-0 flex justify-center">
             <img
