@@ -167,9 +167,9 @@ export default function Home() {
       </nav>
 
       {/* ── Hero ── */}
-      <section className="pt-12 pb-12 px-6">
+      <section className="pt-4 pb-4 px-6">
         <div className="mx-auto max-w-5xl text-center">
-          <div className="mb-6 flex justify-center">
+          <div className="mb-2 flex justify-center">
             <img
               src="/images/logo-mark.webp"
               alt="The Merchant — USA Atlanta Trademark"
