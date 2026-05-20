@@ -170,7 +170,7 @@ export default function Home() {
             />
           </div>
 
-          <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-12 leading-relaxed -mt-4">
+          <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-4 leading-relaxed -mt-4">
             A supplier of industrial chic wares, general gifts, stationery, and
             home furnishings — carrying top brands like Voluspa, Matt &amp;
             Nat, Rifle Paper Co., Fishs Eddy, and much more.
