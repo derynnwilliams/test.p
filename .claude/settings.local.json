@@ -2,7 +2,18 @@
   "permissions": {
     "allow": [
       "mcp__Claude_Preview__preview_start",
-      "Bash(ls \"C:/Users/DWStr/OneDrive/Desktop/TheMerchantAtl\")"
+      "Bash(ls \"C:/Users/DWStr/OneDrive/Desktop/TheMerchantAtl\")",
+      "Bash(git push *)",
+      "Bash(cat vercel.json)",
+      "Bash(ls .vercel)",
+      "Bash(gh repo *)",
+      "Bash(vercel --version)",
+      "Bash(npx vercel *)",
+      "Bash(vercel ls *)",
+      "Bash(vercel --prod --yes)",
+      "Bash(ls \"C:/Users/DWStr/OneDrive/Desktop/test images\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
