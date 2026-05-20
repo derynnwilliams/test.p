@@ -173,7 +173,7 @@ export default function Home() {
             <img
               src="/images/logo-mark.jpg"
               alt="The Merchant — USA Atlanta Trademark"
-              className="w-72 md:w-[420px]"
+              className="w-72 md:w-[420px] mix-blend-multiply"
             />
           </div>
 
