@@ -179,14 +179,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#collections"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-8 py-4 text-base font-bold text-white hover:bg-zinc-800 transition-all"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-6 py-3 text-sm font-bold text-white hover:bg-zinc-800 transition-all"
             >
               Explore Collections
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
               href="#brands"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-300 px-8 py-4 text-base font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-300 px-6 py-3 text-sm font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
             >
               View Brands
             </a>
