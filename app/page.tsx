@@ -209,13 +209,13 @@ export default function Home() {
       {/* ── Photo Strip ── */}
       <div className="grid grid-cols-3 gap-px bg-stone-300">
         <div className="aspect-square overflow-hidden">
-          <img src="/images/keychain.jpg" alt="404 ATL keychain" className="w-full h-full object-cover" />
+          <img src="/images/store-interior.jpg" alt="The Merchant store interior" className="w-full h-full object-cover" />
         </div>
         <div className="aspect-square overflow-hidden">
-          <img src="/images/candles.jpg" alt="Brooklyn Candle Studio" className="w-full h-full object-cover" />
+          <img src="/images/paddywax.jpg" alt="Paddywax candles" className="w-full h-full object-cover" />
         </div>
         <div className="aspect-square overflow-hidden">
-          <img src="/images/stationery.jpg" alt="Stationery and gifts" className="w-full h-full object-cover" />
+          <img src="/images/bowl-flatlay.jpg" alt="Curated home goods" className="w-full h-full object-cover" />
         </div>
       </div>
 
@@ -331,8 +331,8 @@ export default function Home() {
 
           <div className="overflow-hidden">
             <img
-              src="/images/counter.jpg"
-              alt="The Merchant store"
+              src="/images/soul-book.jpg"
+              alt="Soul cookbook and candles"
               className="w-full h-full object-cover"
             />
           </div>
@@ -380,6 +380,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ── Jewelry Photo ── */}
+      <div className="h-[420px] overflow-hidden border-t border-stone-300">
+        <img src="/images/jewelry.jpg" alt="Jewelry and accessories" className="w-full h-full object-cover object-top" />
+      </div>
 
       {/* ── Contact / Lead Form ── */}
       <section id="contact" className="py-24 px-6 border-t border-stone-300">
