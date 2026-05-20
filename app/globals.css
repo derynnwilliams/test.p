@@ -16,6 +16,7 @@
   --color-ink:      #111111;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-poiret-one);
 }
 
 body {
@@ -26,4 +27,8 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+h1, h2 {
+  font-family: var(--font-display);
 }

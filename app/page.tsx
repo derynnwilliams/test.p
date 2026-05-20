@@ -129,10 +129,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-cream text-ink">
       {/* ── Navbar ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 border-b border-stone-200/80 bg-cream/90 backdrop-blur-xl">
+      <nav className="fixed top-0 left-0 right-0 z-50 border-b border-stone-300/80 bg-cream/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="h-8 w-8 rounded-lg bg-ink flex items-center justify-center shrink-0">
+            <div className="h-8 w-8 rounded-none bg-ink flex items-center justify-center shrink-0">
               <span className="text-white font-black text-sm leading-none">
                 M
               </span>
@@ -159,7 +159,7 @@ export default function Home() {
 
           <a
             href="#contact"
-            className="rounded-lg bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-zinc-800 transition-colors"
+            className="rounded-none bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-zinc-800 transition-colors"
           >
             Get in Touch
           </a>
@@ -169,7 +169,7 @@ export default function Home() {
       {/* ── Hero ── */}
       <section className="pt-36 pb-28 px-6">
         <div className="mx-auto max-w-5xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-jade/30 bg-jade/8 px-4 py-1.5 text-xs font-medium text-jade mb-8">
+          <div className="inline-flex items-center gap-2 rounded-none border border-jade/30 bg-jade/8 px-4 py-1.5 text-xs font-medium text-jade mb-8">
             <Star className="h-3 w-3 fill-jade" />
             Industrial Chic · Gifts · Stationery · Home
           </div>
@@ -191,14 +191,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#collections"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-ink px-8 py-4 text-base font-bold text-white hover:bg-zinc-800 transition-all hover:scale-105 shadow-lg shadow-ink/15"
+              className="inline-flex items-center justify-center gap-2 rounded-none bg-ink px-8 py-4 text-base font-bold text-white hover:bg-zinc-800 transition-all"
             >
               Explore Collections
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
               href="#brands"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-stone-300 px-8 py-4 text-base font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
+              className="inline-flex items-center justify-center gap-2 rounded-none border border-stone-300 px-8 py-4 text-base font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
             >
               View Brands
             </a>
@@ -206,8 +206,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Photo Strip ── */}
+      <div className="grid grid-cols-3 gap-px bg-stone-300">
+        <div className="aspect-square overflow-hidden">
+          <img src="/images/keychain.jpg" alt="404 ATL keychain" className="w-full h-full object-cover" />
+        </div>
+        <div className="aspect-square overflow-hidden">
+          <img src="/images/candles.jpg" alt="Brooklyn Candle Studio" className="w-full h-full object-cover" />
+        </div>
+        <div className="aspect-square overflow-hidden">
+          <img src="/images/stationery.jpg" alt="Stationery and gifts" className="w-full h-full object-cover" />
+        </div>
+      </div>
+
       {/* ── Stats ── */}
-      <section className="border-y border-stone-200 bg-cream-2/50 py-12 px-6">
+      <section className="border-y border-stone-300 bg-cream-2/50 py-12 px-6">
         <div className="mx-auto max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat) => (
             <div key={stat.label}>
@@ -239,9 +252,9 @@ export default function Home() {
             {collections.map(({ Icon, title, description }) => (
               <div
                 key={title}
-                className="group rounded-2xl border border-stone-200 bg-white p-6 hover:border-jade/40 hover:shadow-md transition-all duration-300 shadow-sm"
+                className="group rounded-none border border-stone-300 bg-white p-6 hover:border-jade/40 transition-all duration-300"
               >
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-jade/10 text-jade group-hover:bg-jade/15 transition-colors">
+                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-none bg-jade/10 text-jade group-hover:bg-jade/15 transition-colors">
                   <Icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-bold mb-2 text-ink">{title}</h3>
@@ -257,7 +270,7 @@ export default function Home() {
       {/* ── Featured Brands ── */}
       <section
         id="brands"
-        className="py-20 px-6 border-y border-stone-200 bg-cream-2/40"
+        className="py-20 px-6 border-y border-stone-300 bg-cream-2/40"
       >
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-jade mb-3">
@@ -277,10 +290,10 @@ export default function Home() {
             {brands.map((brand) => (
               <span
                 key={brand}
-                className={`rounded-full border px-5 py-2.5 text-sm font-medium transition-colors ${
+                className={`rounded-none border px-5 py-2.5 text-sm font-medium transition-colors ${
                   brand === "& Many More"
                     ? "border-jade/40 bg-jade/10 text-jade"
-                    : "border-stone-300 bg-white text-zinc-700 hover:border-jade/40 hover:text-ink shadow-sm"
+                    : "border-stone-300 bg-white text-zinc-700 hover:border-jade/40 hover:text-ink"
                 }`}
               >
                 {brand}
@@ -316,21 +329,12 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            {valueProps.map(({ Icon, title, description }) => (
-              <div
-                key={title}
-                className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm"
-              >
-                <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-jade/10 text-jade">
-                  <Icon className="h-5 w-5" />
-                </div>
-                <h3 className="font-bold mb-1.5 text-ink">{title}</h3>
-                <p className="text-xs text-zinc-500 leading-relaxed">
-                  {description}
-                </p>
-              </div>
-            ))}
+          <div className="overflow-hidden">
+            <img
+              src="/images/counter.jpg"
+              alt="The Merchant store"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
@@ -338,7 +342,7 @@ export default function Home() {
       {/* ── Testimonials ── */}
       <section
         id="testimonials"
-        className="py-24 px-6 bg-cream-2/40 border-t border-stone-200"
+        className="py-24 px-6 bg-cream-2/40 border-t border-stone-300"
       >
         <div className="mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -354,7 +358,7 @@ export default function Home() {
             {testimonials.map(({ name, role, quote }) => (
               <div
                 key={name}
-                className="rounded-2xl border border-stone-200 bg-white p-8 flex flex-col shadow-sm"
+                className="rounded-none border border-stone-300 bg-white p-8 flex flex-col"
               >
                 <div className="flex mb-5">
                   {Array.from({ length: 5 }).map((_, i) => (
@@ -378,7 +382,7 @@ export default function Home() {
       </section>
 
       {/* ── Contact / Lead Form ── */}
-      <section id="contact" className="py-24 px-6 border-t border-stone-200">
+      <section id="contact" className="py-24 px-6 border-t border-stone-300">
         <div className="mx-auto max-w-2xl">
           <div className="text-center mb-12">
             <p className="text-xs font-semibold uppercase tracking-widest text-jade mb-3">
@@ -393,7 +397,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="rounded-2xl border border-stone-200 bg-white p-8 shadow-sm">
+          <div className="rounded-none border border-stone-300 bg-white p-8">
             <LeadForm />
           </div>
         </div>
@@ -405,7 +409,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-10 mb-10">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <div className="h-7 w-7 rounded-lg bg-jade flex items-center justify-center">
+                <div className="h-7 w-7 rounded-none bg-jade flex items-center justify-center">
                   <span className="text-white font-black text-xs leading-none">
                     M
                   </span>
