@@ -196,14 +196,14 @@ export default function Home() {
 
       {/* ── Photo Strip ── */}
       <div className="grid grid-cols-3 gap-px bg-stone-300">
-        <div className="aspect-square overflow-hidden">
-          <img src="/images/store-interior.jpg" alt="The Merchant store interior" className="w-full h-full object-cover" />
+        <div>
+          <img src="/images/store-interior.jpg" alt="The Merchant store interior" className="w-full h-auto block" />
         </div>
-        <div className="aspect-square overflow-hidden">
-          <img src="/images/paddywax.jpg" alt="Paddywax candles" className="w-full h-full object-cover" />
+        <div>
+          <img src="/images/paddywax.jpg" alt="Paddywax candles" className="w-full h-auto block" />
         </div>
-        <div className="aspect-square overflow-hidden">
-          <img src="/images/bowl-flatlay.jpg" alt="Curated home goods" className="w-full h-full object-cover" />
+        <div>
+          <img src="/images/bowl-flatlay.jpg" alt="Curated home goods" className="w-full h-auto block" />
         </div>
       </div>
 
