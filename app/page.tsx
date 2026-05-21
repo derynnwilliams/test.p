@@ -176,19 +176,13 @@ export default function Home() {
             Nat, Rifle Paper Co., Fishs Eddy, and much more.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <a
               href="#collections"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-6 py-3 text-sm font-bold text-white hover:bg-zinc-800 transition-all"
             >
               Explore Collections
               <ArrowRight className="h-4 w-4" />
-            </a>
-            <a
-              href="#brands"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-300 px-6 py-3 text-sm font-semibold text-zinc-600 hover:border-jade/50 hover:text-ink transition-all"
-            >
-              View Brands
             </a>
           </div>
         </div>
