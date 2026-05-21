@@ -189,15 +189,18 @@ export default function Home() {
       </section>
 
       {/* ── Photo Strip ── */}
-      <div className="grid grid-cols-3 gap-px bg-stone-300">
-        <div>
-          <img src="/images/store-interior.jpg" alt="The Merchant store interior" className="w-full h-auto block" />
+      <div className="grid grid-cols-3 grid-rows-2 gap-px bg-stone-300">
+        <div className="h-80 overflow-hidden">
+          <img src="/images/store-interior.jpg" alt="The Merchant store interior" className="w-full h-full object-cover" />
         </div>
-        <div>
-          <img src="/images/paddywax.jpg" alt="Paddywax candles" className="w-full h-auto block" />
+        <div className="row-span-2 overflow-hidden">
+          <img src="/images/paddywax.jpg" alt="Paddywax candles" className="w-full h-full object-cover" />
         </div>
-        <div className="overflow-hidden self-stretch">
+        <div className="row-span-2 overflow-hidden">
           <img src="/images/bowl-flatlay.jpg" alt="Curated home goods" className="w-full h-full object-cover" />
+        </div>
+        <div className="h-80 overflow-hidden">
+          <img src="/images/store-interior-2.jpg" alt="The Merchant store" className="w-full h-full object-cover" />
         </div>
       </div>
 
