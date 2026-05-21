@@ -196,8 +196,8 @@ export default function Home() {
         <div>
           <img src="/images/paddywax.jpg" alt="Paddywax candles" className="w-full h-auto block" />
         </div>
-        <div>
-          <img src="/images/bowl-flatlay.jpg" alt="Curated home goods" className="w-full h-auto block" />
+        <div className="overflow-hidden self-stretch">
+          <img src="/images/bowl-flatlay.jpg" alt="Curated home goods" className="w-full h-full object-cover" />
         </div>
       </div>
 
